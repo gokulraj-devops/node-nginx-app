@@ -4,7 +4,7 @@ services:
   nodeapp:
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: Dockerfile.custom
     container_name: nodeapp
     expose:
       - "3000"
