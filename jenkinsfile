@@ -1,0 +1,16 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('git clone') {
+            steps {
+                git 'https://github.com/gokulraj-devops/node-nginx-app.git'
+            }
+        }
+        stage('docker conatiner build') {
+            steps {
+                sh 'docker-compose up -d --build'
+            }
+        }
+    }
+}
