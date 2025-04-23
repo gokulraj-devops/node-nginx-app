@@ -7,26 +7,26 @@ This URL has the application deployed in
 
 ## Repo configure files and setup:
 
-1. Install docker in your machine
+1. Install docker in your machine ☑️
 
-    `https://docs.docker.com/desktop/setup/install/windows-install/`
+       https://docs.docker.com/desktop/setup/install/windows-install/
         
-2. Open powershell and check docker version
+2. Open powershell and check docker version 🗃️
 
-    `docker --version`
+       docker --version
 
-3. Clone the this git repo
+3. Clone the this git repo ☁️
 
-    `git clone https://github.com/gokulraj-devops/node-nginx-app.git`
+       git clone https://github.com/gokulraj-devops/node-nginx-app.git
 
-4. Change directory/folder in cloned directory
+4. Change directory/folder in cloned directory 📁
 
-    `cd <directory>`
+       cd <directory>
 
-5. Run the below docker command to create a containers,
+5. Run the below docker command to create a containers ↙️
 
-    `docker-compose up --build -d`
+       docker-compose up --build -d
 
-6. Check the brower to using this url
+6. Check the brower to using this url 🔗
 
-    `http://localhost/simple-reactjs-app/customerlist`
+       http://localhost/simple-reactjs-app/customerlist
